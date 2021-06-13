@@ -1,10 +1,18 @@
 <?php
 //rnfunctions.php
-$dbhost='localhost';
-$dbname='mammy';
-$dbuser='root';
-$dbpass='';
-$appname="xell";
+//Development Connection
+// $dbhost='localhost';
+// $dbname='mammy';
+// $dbuser='root';
+// $dbpass='';
+// $appname="xell";
+
+//Remote Connection
+$dbhost='remotemysql.com';
+$dbname='XbYnQmnYLA';
+$dbuser='XbYnQmnYLA';
+$dbpass='Ao1Kakb9JP';
+$appname="insti-market";
 
 $con=mysqli_connect("$dbhost","$dbuser","$dbpass","$dbname");
 // Check connection
