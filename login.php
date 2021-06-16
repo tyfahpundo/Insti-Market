@@ -99,7 +99,7 @@ else {
 
 
                     <form class="form-mini" method="post" action="login.php">
-                        <h1>Register </h1>
+                        <h1>Subscribe </h1>
                         <?php
 
 
